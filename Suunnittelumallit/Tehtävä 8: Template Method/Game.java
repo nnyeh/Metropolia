@@ -1,4 +1,4 @@
-package tsydeemi2;
+package tsydeemi;
 
 abstract class Game {
 

@@ -1,4 +1,4 @@
-package tsydeemi2;
+package tsydeemi;
 
 public class RollTheDie extends Game {
 	

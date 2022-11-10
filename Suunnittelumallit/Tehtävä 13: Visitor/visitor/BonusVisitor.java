@@ -4,7 +4,7 @@ import states.Pichu;
 import states.Pikachu;
 import states.Raichu;
 
-public class BonusVisitor implements PokemonVisitor{
+public class BonusVisitor implements PokemonVisitor {
 	
 	@Override
 	public void visitPichu(Pichu pichu) {

@@ -6,7 +6,7 @@ public abstract class Farmarit extends Vaatevalinta {
 
 	public void setMerkki(String merkki) {
 		this.merkki = merkki;
-	}
+	} 
 	
 	@Override
 	public String toString() {

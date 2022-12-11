@@ -18,16 +18,16 @@ public class NumberList {
 	}	
 
 	public void iterate() {
-		Iterator<Integer> it1 = numbers.iterator();
-		while (it1.hasNext()) {
-			System.out.println("Thread 1: " + it1.next());
+		Iterator<Integer> iterator1 = numbers.iterator();
+		while (iterator1.hasNext()) {
+			System.out.println("Thread 1: " + iterator1.next());
 		}
 	}
 
 	public void iterate2() {
-		Iterator<Integer> it2 = numbers.iterator();
-		while (it2.hasNext()) {
-			System.out.println("Thread 2: " + it2.next());
+		Iterator<Integer> iterator2 = numbers.iterator();
+		while (iterator2.hasNext()) {
+			System.out.println("Thread 2: " + iterator2.next());
 		}
 	}	
 	

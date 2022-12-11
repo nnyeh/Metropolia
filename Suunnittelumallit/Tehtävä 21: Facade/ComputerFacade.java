@@ -6,9 +6,9 @@ public class ComputerFacade {
 	private Memory memory;
 	private HardDrive hardDrive;
 	
-	private long kBootAddress = 1;
-	private long kBootSector = 2;
-	private int kSectorSize = 3;
+	private long kBootAddress = 8000;
+	private long kBootSector = 1000;
+	private int kSectorSize = 512;
 	
 	public ComputerFacade(CPU cpu, Memory ram, HardDrive hdd) {		
 		this.cpu = cpu;

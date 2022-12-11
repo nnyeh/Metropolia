@@ -10,7 +10,7 @@ public class Thread1 extends Thread {
 
 	@Override
 	public void run() {
-		numberlist.iterate();
+		numberlist.iterate1();
 	}
 	
 }
